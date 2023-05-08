@@ -15,7 +15,7 @@ logging.basicConfig(level = logging.INFO)
 
 objective = input("Select what you would like to explore\n")
 n_articles = int(input("Select desired number of websites to visit\n"))
-open_ai_key = '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'
+open_ai_key = 'ciao'
 
 header = f"""
 Summarize this text with the following objective in mind: "{objective}":

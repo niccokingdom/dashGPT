@@ -1,0 +1,16 @@
+2023-05-09 00:21:30,821 - INFO - 
+
+************ New Search ************
+
+
+2023-05-09 00:21:30,821 - INFO - Objective:record of time without sleeping
+Best associated google queries:
+['World record for longest time without sleep', 'How long can a person go without sleep', 'Sleep deprivation records and statistics']
+2023-05-09 00:21:33,546 - INFO - scraping body for: https://www.sciencealert.com/here-s-the-longest-people-have-survived-without-air-food-water-sunshine-or-sleep
+2023-05-09 00:21:37,382 - INFO - Splitted body 1/1 of 1174 tokens in 1 chunks
+2023-05-09 00:21:37,382 - INFO -     Summary for chunk 1/1
+2023-05-09 00:22:07,583 - INFO - error_code=None error_message='That model is currently overloaded with other requests. You can retry your request, or contact us through our help center at help.openai.com if the error persists. (Please include the request ID 7043db5a2c95566d9bc0ca9072cc1484 in your message.)' error_param=None error_type=server_error message='OpenAI API error received' stream_error=False
+2023-05-09 00:22:07,583 - INFO - An error occurred. Retrying last summary in 30 seconds...
+2023-05-09 00:22:20,063 - INFO - summary completed and search search_output.txt file generated
+2023-05-09 00:25:31,057 - INFO - Dash is running on http://127.0.0.1:8050/
+

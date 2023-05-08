@@ -1,0 +1,14 @@
+2023-05-09 00:26:26,530 - INFO - 
+
+************ New Search ************
+
+
+2023-05-09 00:26:26,530 - INFO - Objective:best holiday place
+Best associated google queries:
+['Top 10 holiday destinations in the world', 'Best vacation spots for families', 'Most beautiful places to visit for a holiday']
+2023-05-09 00:26:29,258 - INFO - scraping body for: https://www.forbes.com/sites/laurabegleybloom/2019/09/04/bucket-list-travel-the-top-50-places-in-the-world/
+2023-05-09 00:26:29,260 - INFO - Applicable driver not found; attempting to install with Selenium Manager (Beta)
+2023-05-09 00:26:35,327 - INFO - Splitted body 1/1 of 4329 tokens in 2 chunks
+2023-05-09 00:26:35,328 - INFO -     Summary for chunk 1/2
+2023-05-09 00:26:42,364 - INFO -     Summary for chunk 2/2
+2023-05-09 00:26:50,800 - INFO - summary completed and search search_output.txt file generated

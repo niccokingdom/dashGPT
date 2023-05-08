@@ -7,7 +7,7 @@ from create_summary import create_string
 import logging
 import os
 
-logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger("log")
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
 server = app.server
@@ -89,4 +89,4 @@ def update_log_area(n_intervals):
     return log_content
 
 if __name__ == '__main__':
-    app.run_server(debug=True)#,  host='0.0.0.0')
+    app.run_server(debug=True, port=8071)#,  host='0.0.0.0')

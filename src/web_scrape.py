@@ -15,6 +15,9 @@ from text import *
 # search online
 from duckduckgo_search import ddg 
 from googlesearch import search
+import logging
+
+logging.basicConfig(level=logging.INFO)
 
 def google_search(query: str, num_results: int = 3) -> str:
     """Returns urls for input search string
@@ -52,7 +55,12 @@ def scrape_text_with_selenium(url: str):
     chrome_options.add_argument(
         "user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.5615.49 Safari/537.36"
     )
-    driver = webdriver.Chrome('chromedriver.exe', chrome_options=chrome_options)
+    for dirpath, dirnames, filenames in os.walk(os.getcwd()):
+        for file in filenames:
+            if file == 'chromedriver.exe':
+                # Print the path of the file
+                chromePath = os.path.join(dirpath, file)
+    driver = webdriver.Chrome(chromePath, chrome_options=chrome_options)
     driver.get(url)
 
     WebDriverWait(driver, 10).until(
